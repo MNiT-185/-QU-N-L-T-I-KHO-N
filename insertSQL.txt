@@ -1,0 +1,1 @@
+insert into CHINHANH values('CN1','CN 269',N'392 Lê Văn Lương Quận 7')
