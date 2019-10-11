@@ -1,2 +1,25 @@
-﻿insert into CHINHANH values('CN1','CN 269',N'392 Lê Văn Lương Quận 7')
-insert into CHINHANH values('CN2','CN 962',N'293 Lê Văn Lương Quận 7') 
+﻿insert into CHINHANH values('CN1',N'Chi nhánh Hồ Chí Minh',N'392 Lê Văn Lương, Quận 7, Hồ Chí Minh'),
+insert into CHINHANH values('CN2',N'Chi nhánh Hà Nội',N'41 Vũ Thạnh, Đống Đa, Hà Nội')
+
+insert into DICHVU values('10',3,N'Chưa có'),
+insert into DICHVU values('11',6,N'Chưa có'),
+insert into DICHVU values('12',12,N'Chưa có'),
+insert into DICHVU values('40',0,N'Chưa có')
+
+insert into LAISUAT values('10','12/10/2019',3.5),
+insert into LAISUAT values('11','13/10/2019',4.5),
+insert into LAISUAT values('12','14/10/2019',5.5),
+insert into LAISUAT values('40','15/10/2019',2.5)
+
+insert into KHACHHANG values(N'Trần Phú Quý',N'Long An','051702165','12/10/2005','CN1'),
+insert into KHACHHANG values(N'Phạm Duy Thái',N'Long An','051702180','13/10/2005','CN1'),
+insert into KHACHHANG values(N'Đào Gia Hiệp',N'Long An','051702015','14/10/2005','CN2'),
+insert into KHACHHANG values(N'Lưu Thụy Kỳ',N'Long An','051702026','15/10/2005','CN2')
+
+insert into GIAODICHVIEN values(N'Trần Phú Quý',N'Long An','GDV001','CN1'),
+insert into GIAODICHVIEN values(N'Trần Phú Quý',N'Hồ Chí Minh','GDV003','CN2')
+
+insert into PHIEU values('000001','051702165','10','12/10/2019',3.5,100001,'12/10/2020','GDV001','',10000,'GDV002'),
+insert into PHIEU values('000002','051702180','11','13/10/2019',2.5,100001,'13/10/2020','GDV001','',20000,'GDV001'),
+insert into PHIEU values('000003','051702015','12','14/10/2019',1.5,100002,'14/10/2020','GDV002','',30000,'GDV001'),
+insert into PHIEU values('000004','051702026','40','15/10/2019',0.5,100002,'15/10/2020','GDV002','',12000,'GDV002'),
