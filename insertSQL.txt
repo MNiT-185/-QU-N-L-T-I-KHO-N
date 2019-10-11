@@ -1,1 +1,2 @@
-insert into CHINHANH values('CN1','CN 269',N'392 Lê Văn Lương Quận 7')
+﻿insert into CHINHANH values('CN1','CN 269',N'392 Lê Văn Lương Quận 7')
+insert into CHINHANH values('CN2','CN 962',N'293 Lê Văn Lương Quận 7') 
